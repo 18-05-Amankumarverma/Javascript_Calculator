@@ -1,0 +1,13 @@
+	body{background-color:;text-align:center;}
+		#headingtitle{font-size:58px;}
+		#headingtitles{box-shadow:0px 10px 10px 0px rgb(225, 191, 0);}
+		#container{border:2px solid red;background-color:#3498DB;width:760px;border-radius:12px;box-shadow:10px 10px 2px 2px  rgb(255, 191, 0);}
+		.main_input{height:40px; width:127px;}
+		.opeartor_button{width:160px;height:80px;border-radius:16px;font-weight:bold;font-size:35px;}
+		.opeartor_button:hover{background-color: #F39C12 ;}
+		#clear_but{color:red;font-size:35px;}
+		.opeartors_button{width:160px;height:80px;border-radius:16px;font-weight:bold;font-size:35px;}
+		.opeartors_button:hover{background-color:#F3124F;}
+		#firstbox{font-size:20px;border-radius:12px;}
+		#secondbox{font-size:20px;border-radius:12px;}
+		#answerbox{font-size:20px;border-radius:12px;}

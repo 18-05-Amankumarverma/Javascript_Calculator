@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="refresh" content="">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="" content="">
+	<meta name="author" content="Aman kumar verma">
+	<title>javascript calculator</title>
+	<link rel="stylesheet" href="style.css">
+    </head>
+<body>
+ <div id="headingtitles"><h1 align="center" id="headingtitle">JavaScript Calculator</h1></div>
+
+<div id="container">
+		<div>
+		   <div id="" class=""> <input class="main_input" id="firstbox" placeholder="first number" type="text"/>
+		   						<input class="main_input" id="secondbox" placeholder="second number" type="text"/>
+		   						<input class="main_input" id="answerbox" placeholder="result" type="text"/>
+		   </div>
+
+		    <button id="seven"  class="opeartor_button" >7</button>
+			<button id="eight" class="opeartor_button">8</button>
+			<button id="nine" class="opeartor_button" >9</button>
+			<button id="add"  class="opeartors_button" onclick="addition()">+</button>
+			<br>
+			<button id="four" class="opeartor_button" >4</button>
+			<button id="five" class="opeartor_button" >5</button>
+			<button id="six" class="opeartor_button" >6</button>
+			<button id="sub"  class="opeartors_button" onclick="substrcting()">-</button>
+			<br>
+			<button id="one" class="opeartor_button" >1</button>
+			<button id="two" class="opeartor_button" >2</button>
+			<button id="three" class="opeartor_button" >3</button>
+			<button id="mul" class="opeartors_button" onclick="multiplication()">*</button>
+			<br>
+			<button id="zero" class="opeartor_button" >0</button>
+			<button id="dot" class="opeartors_button"><a  id="clear_but" href="Calculator.html">c</a></button>
+			<button id="divide" class="opeartors_button" onclick="dividetoo()">/</button>
+			<button id="equalto" class="opeartors_button" onclick="equaltoo()">=</button>
+			
+		</div>
+</div>
+
+<script type="text/javascript">
+     var seven = document.getElementById('seven');
+            var eight = document.getElementById('eight');
+            var nine = document.getElementById('nine');
+            var add = document.getElementById('add');
+            var four = document.getElementById('four');
+            var five = document.getElementById('five');
+            var six = document.getElementById('six');
+            var sub = document.getElementById('sub');
+            var one = document.getElementById('one');
+            var two = document.getElementById('two');
+            var three  = document.getElementById('three');
+            var mul = document.getElementById('mul');
+            var zero = document.getElementById('zero');
+            var dot = document.getElementById('dot');
+            var divide = document.getElementById('divide');
+            var equalto = document.getElementById('equalto');
+        
+        //adding 
+        function addition(){
+        	  var firstbox = document.getElementById('firstbox').value;
+              var secondbox = document.getElementById('secondbox').value;
+              var answerbox = document.getElementById('answerbox');
+        
+        	  answerbox.value = firstbox + secondbox;
+        }	  console.log(answerbox.value);
+         
+        
+
+        // substracting 
+        function substrcting(){
+        	 var firstbox = document.getElementById('firstbox').value;
+             var secondbox = document.getElementById('secondbox').value;
+             var answerbox = document.getElementById('answerbox');
+        
+        	 answerbox.value = firstbox - secondbox;
+        	 console.log(answerbox.value);
+        }
+        
+        //multiplication
+        function multiplication(){
+        	 var firstbox = document.getElementById('firstbox').value;
+             var secondbox = document.getElementById('secondbox').value;
+             var answerbox = document.getElementById('answerbox');
+        
+        	 answerbox.value = firstbox * secondbox;
+        	 console.log(answerbox.value);
+        }
+
+        function dotfloat(){
+        	 var firstbox = document.getElementById('firstbox').value;
+             var secondbox = document.getElementById('secondbox').value;
+             var answerbox = document.getElementById('answerbox');
+        	 
+        	 answerbox.value = firstbox + secondbox;
+        	 console.log(answerbox.value);
+        }
+
+        //divideing
+        function dividetoo(){
+        	 var firstbox = document.getElementById('firstbox').value;
+             var secondbox = document.getElementById('secondbox').value;
+             var answerbox = document.getElementById('answerbox');
+        	 answerbox.value = firstbox / secondbox;
+        	 console.log(answerbox.value);
+        }
+
+     
+
+                            
+
+</script >
+</body>
+</html>
